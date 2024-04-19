@@ -32,6 +32,10 @@ ng g config karma
 [CREATE karma.conf.js (1314 bytes)
 UPDATE angular.json (4710 bytes)]
 
+https://jasmine.github.io/
+https://karma-runner.github.io/latest/index.html
+https://medium.com/swlh/angular-unit-testing-jasmine-karma-step-by-step-e3376d110ab4
+
 ## run unit test cases command
 
 ng test 
@@ -42,15 +46,15 @@ or, ng test --code-coverage
 (it will check how much code covered by your written unit test cases)
 
 example : TOTAL: 2 SUCCESS
-=============================== Coverage summary ===============================
+========== Coverage summary ===========
 Statements   : 100% ( 3/3 )
 Branches     : 100% ( 0/0 )
 Functions    : 100% ( 1/1 )
 Lines        : 100% ( 2/2 )
-================================================================================
 above coverage should be more than 70% for passing the Sonar-Qube criteria.(>70% means a good code)
 
 refrence images:
-![Alt text](/home/ce00140221/Desktop/setup/setup/src/assets/coverage less than 70.png)
-![Alt text](/home/ce00140221/Desktop/setup/setup/src/assets/coverage passed.png)
-![Alt text](/home/ce00140221/Desktop/setup/setup/src/assets/zero covergae.png)
+![Alt text](src/assets/coverage%20less%20than%2070.png)
+![Alt text](src/assets/coverage%20passed.png)
+![Alt text](src/assets/zero%20covergae.png)
+
