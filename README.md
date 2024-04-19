@@ -45,15 +45,14 @@ ng test
 or, ng test --code-coverage 
 (it will check how much code covered by your written unit test cases)
 
-example : TOTAL: 2 SUCCESS
-========== Coverage summary ===========
+## coverage summary :
 Statements   : 100% ( 3/3 )
 Branches     : 100% ( 0/0 )
 Functions    : 100% ( 1/1 )
 Lines        : 100% ( 2/2 )
 above coverage should be more than 70% for passing the Sonar-Qube criteria.(>70% means a good code)
 
-refrence images:
+## refrence images:
 ![Alt text](src/assets/coverage%20less%20than%2070.png)
 ![Alt text](src/assets/coverage%20passed.png)
 ![Alt text](src/assets/zero%20covergae.png)
