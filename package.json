@@ -1,12 +1,21 @@
 {
   "name": "setup",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve -c=localhost --port=4205 -o",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "e2e": "ng e2e",
+    "start:local": "ng serve -c=localhost --port=4205 -o",
+    "start:dev": "ng serve -c=dev --port=4205 -o",
+    "start:uat": "ng serve -c=uat --port=4205 -o",
+    "start:prod": "ng serve -c=production --port=4205 -o",
+    "build:dev": "ng build --output-hashing=all --base-href ./ -c=dev",
+    "build:uat": "ng build --output-hashing=all --base-href ./ -c=uat",
+    "build:prod": "ng build --output-hashing=all --base-href ./ -c=production",
+    "sonar": "sonar-scanner",
     "serve:ssr:setup": "node dist/setup/server/server.mjs"
   },
   "private": true,
