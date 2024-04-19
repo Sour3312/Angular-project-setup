@@ -34,7 +34,7 @@ you can set default true to codeCoverage in angular.json file
     ],
     "scripts": [],
     "karmaConfig": "karma.conf.js",
-    <span style="background-color: yellow;">"codeCoverage": true</span>
+    "codeCoverage": true
   }
 }
 ```
@@ -45,7 +45,7 @@ Statements   : 100% ( 3/3 )
 Branches     : 100% ( 0/0 )
 Functions    : 100% ( 1/1 )
 Lines        : 100% ( 2/2 )
-above coverage should be more than 70% for passing the Sonar-Qube criteria.<span style="background-color: yellow;">(>70% means a good code)</span>
+above coverage should be more than 70% for passing the Sonar-Qube criteria.(>70% means a good code)
 
 ## refrence images:
 ![Alt text](src/assets/coverage%20less%20than%2070.png)
