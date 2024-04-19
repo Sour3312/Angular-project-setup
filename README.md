@@ -32,9 +32,9 @@ ng g config karma
 [CREATE karma.conf.js (1314 bytes)
 UPDATE angular.json (4710 bytes)]
 
-https://jasmine.github.io/
-https://karma-runner.github.io/latest/index.html
-https://medium.com/swlh/angular-unit-testing-jasmine-karma-step-by-step-e3376d110ab4
+1. [Jasmine](https://jasmine.github.io/)
+2. [Karma](https://karma-runner.github.io/latest/index.html)
+3. [Angular Unit Testing: Jasmine & Karma Step-by-Step](https://medium.com/swlh/angular-unit-testing-jasmine-karma-step-by-step-e3376d110ab4)
 
 ## run unit test cases command
 
