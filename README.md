@@ -42,7 +42,31 @@ ng test
 
 ## generate coverage of your test cases into the file
 
-or, ng test --code-coverage 
+ng test --code-coverage
+or
+you can set default true to codeCoverage in angular.json file
+```json
+"test": {
+  "builder": "@angular-devkit/build-angular:karma",
+  "options": {
+    "polyfills": [
+      "zone.js",
+      "zone.js/testing"
+    ],
+    "tsConfig": "tsconfig.spec.json",
+    "assets": [
+      "src/favicon.ico",
+      "src/assets"
+    ],
+    "styles": [
+      "src/styles.css"
+    ],
+    "scripts": [],
+    "karmaConfig": "karma.conf.js",
+    "codeCoverage": true
+  }
+}
+```
 (it will check how much code covered by your written unit test cases)
 
 ## coverage summary :
