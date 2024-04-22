@@ -72,7 +72,15 @@ setup:
 first you need to install this package in your karma.conf.js
 
 ```
-plugins: [require('karma-jquery')]
+ plugins: [
+      require('karma-jasmine'),
+      <span style="background-color: yellow">require('karma-jquery')</span>,
+      require('karma-chrome-launcher'),
+      require('karma-jasmine-html-reporter'),
+      require('karma-coverage'),
+      require('@angular-devkit/build-angular/plugins/karma')
+    ],
+
 npm install jquery --save
 npm install karma-jquery --save-dev
 ```
