@@ -1,7 +1,6 @@
 ## generate karma file 
 
-```ng g config karma
-npm install karma --save-dev```
+ng g config karma
 
 this will help you:
 1. [Jasmine](https://jasmine.github.io/)
