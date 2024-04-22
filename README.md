@@ -69,7 +69,7 @@ ReferenceError: $ is not defined
 you will get this error if jquery not setup in your project
 
 setup:
-first you need to install this package in your karma.conf.js
+first you need to install '@karma-jquery' package in your karma.conf.js
 
 ```
  plugins: [
