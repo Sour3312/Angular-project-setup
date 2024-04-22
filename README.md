@@ -52,3 +52,24 @@ above coverage should be more than 70% for passing the Sonar-Qube criteria.(>70%
 ![Alt text](src/assets/coverage%20passed.png)
 ![Alt text](src/assets/zero%20covergae.png)
 
+## jquery($) setup for unit testing in angular
+
+```DashboardComponent > should set xyz and abc to true and add class to bottom sheet wrapper when sheet is "route"
+ReferenceError: $ is not defined
+    at DashboardComponent.openBottomSheet (http://localhost:9877/_karma_webpack_/webpack:/src/app/components/dashboard/dashboard.component.ts:23:7)
+    at UserContext.apply (http://localhost:9877/_karma_webpack_/webpack:/src/app/components/dashboard/dashboard.component.spec.ts:27:15)
+    at _ZoneDelegate.invoke (http://localhost:9877/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone.js:368:26)
+    at ProxyZoneSpec.onInvoke (http://localhost:9877/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone-testing.js:273:39)
+    at _ZoneDelegate.invoke (http://localhost:9877/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone.js:367:52)
+    at Zone.run (http://localhost:9877/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone.js:130:43)
+    at runInTestZone (http://localhost:9877/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone-testing.js:555:34)
+    at UserContext.<anonymous> (http://localhost:9877/_karma_webpack_/webpack:/node_modules/zone.js/fesm2015/zone-testing.js:570:20)
+    at <Jasmine>
+```
+you will get this error if jquery not setup in your project
+
+setup:
+first you need to install this package in your karma.conf.js
+
+```  plugins: [require('karma-jquery')]```
+
