@@ -1,6 +1,7 @@
 ## generate karma file 
 
-ng g config karma
+```ng g config karma
+npm install karma --save-dev```
 
 this will help you:
 1. [Jasmine](https://jasmine.github.io/)
@@ -71,5 +72,8 @@ you will get this error if jquery not setup in your project
 setup:
 first you need to install this package in your karma.conf.js
 
-```  plugins: [require('karma-jquery')]```
+```  plugins: [require('karma-jquery')]
+     npm install jquery --save
+     npm install karma-jquery --save-dev
+```
 
