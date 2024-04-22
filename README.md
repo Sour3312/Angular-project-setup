@@ -84,4 +84,10 @@ first you need to install this package in your karma.conf.js
 npm install jquery --save
 npm install karma-jquery --save-dev
 ```
+add this to angular.json in test section
+```
+"scripts": [
+              "node_modules/jquery/dist/jquery.min.js"
+            ]
+```
 
