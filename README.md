@@ -71,8 +71,9 @@ you will get this error if jquery not setup in your project
 setup:
 first you need to install this package in your karma.conf.js
 
-```  plugins: [require('karma-jquery')]
-     npm install jquery --save
-     npm install karma-jquery --save-dev
+```
+plugins: [require('karma-jquery')]
+npm install jquery --save
+npm install karma-jquery --save-dev
 ```
 
