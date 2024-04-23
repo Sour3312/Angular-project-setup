@@ -93,3 +93,28 @@ add this to angular.json in test section
 
 ## unit test documentation for help
 url: [https://github.com/dinanathsj29/angular-unit-testing-jasmine-karma-tutorial?tab=readme-ov-file#9-angular-testing-resources](https://github.com/dinanathsj29/angular-unit-testing-jasmine-karma-tutorial?tab=readme-ov-file#9-angular-testing-resources)
+
+```
+A Angular Testing: Run Unit Tests
+Commonly used Options
+• --browsers= browser
+• --code-coverage
+• --karmaConfig=karmaConfig
+• --main-main
+• --configuration=configuration
+• -progress=true|false
+
+A Angular: How to Run E2E Tests
+Commonly used Options
+• --browsers= browser
+• --baseUrl = baseUrl
+• --specs
+• --code-coverage 
+• --host=host 
+• --port=port
+• --prod = true/false
+• --protractorConfig=protractorConfig
+• --suite-suite
+• --main-main
+• --configuration=configuration
+```
