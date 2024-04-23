@@ -118,3 +118,36 @@ Commonly used Options
 • --main-main
 • --configuration=configuration
 ```
+## AAA concept in angular unit testing
+
+``` Arrange Act Assert```
+
+```
+describe('AAAComponent', () => {
+  // Arrange 
+  let component: AAAComponent;
+  let fixture: ComponentFixture<AAAComponent>;
+
+  // Arrange 
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      imports: [AAAComponent]
+    })
+      .compileComponents();
+
+    fixture = TestBed.createComponent(AAAComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should set xyz and abc to true and add class to bottom sheet wrapper when sheet is "route"', () => {
+    // Act
+    const sheet = 'route';
+    component.openBottomSheet(sheet);
+
+    // Assert 
+    expect(component.xyz).toBe(true);
+    expect(component.abc).toBe(true);
+    const bottomSheetWrapper = fixture.debugElement.query(By.css('.bottom-sheet-wrapper'));
+  });
+})```
