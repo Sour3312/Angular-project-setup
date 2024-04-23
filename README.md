@@ -35,6 +35,7 @@ UPDATE angular.json (4710 bytes)]
 1. [Jasmine](https://jasmine.github.io/)
 2. [Karma](https://karma-runner.github.io/latest/index.html)
 3. [Angular Unit Testing: Jasmine & Karma Step-by-Step](https://medium.com/swlh/angular-unit-testing-jasmine-karma-step-by-step-e3376d110ab4)
+4. [Testing AngularJS with Protractor and Karma](https://mherman.org/blog/testing-angularjs-with-protractor-and-karma-part-1/)
 
 ## run unit test cases command
 
