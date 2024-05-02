@@ -93,7 +93,8 @@ add this to angular.json in test section
 ```
 
 ## unit test documentation for help
-url: [https://github.com/dinanathsj29/angular-unit-testing-jasmine-karma-tutorial?tab=readme-ov-file#9-angular-testing-resources](https://github.com/dinanathsj29/angular-unit-testing-jasmine-karma-tutorial?tab=readme-ov-file#9-angular-testing-resources)
+url: [angular-testing-resources](https://github.com/dinanathsj29/angular-unit-testing-jasmine-karma-tutorial?tab=readme-ov-file#9-angular-testing-resources)
+      [url](https://www.youtube.com/watch?v=o7N5JyhvKIY)
 
 ```
 A Angular Testing: Run Unit Tests
